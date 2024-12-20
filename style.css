@@ -27,6 +27,10 @@ SECTIONS
 =================================================
 */
 .bg-aquamarine {
-    background-color: plum;
+    background-color: palegoldenrod;
   }
-  
+.navbar-brand {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: aquamarine;
+}
