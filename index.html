@@ -14,39 +14,60 @@
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
    </head>
    <body>
-      <!-- NAVIGATION -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <!-- NAVBAR START -->
+       <nav class="navbar navbar-expand-md navbar-dark fixed bg-dark" id="nav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#">Pop Art</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    </div>
-      <div class="hero-section py-5">
-        <main class="container py-5">
-          <div class="p-5 rounded">
-            <h1>Pop Art...</h1>
-            <p class="lead">
-              Introducing...
-            </p>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto me-s-auto mb-2 mb-md-0 text-end">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#image">Results</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#video">Video</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#slides">Slides</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tabs">Tabs</a>
+              </li>
+            </ul>
           </div>
-        </main>
+        </div>
+      </nav>
+      <!-- NAVBAR END -->
+
+   <!-- HERO SECTION START -->
+   <div class="hero-section py-5">
+    <main class="container py-5">
+      <div class="p-5 rounded">
+        <h1>Introducing Pop Art</h1>
+        <p class="lead">
+          Essential Question: What were the cultural and societal impacts of the pop art movement in the US during the 1960s?
+        </p>
+        <p class="bead">
+          This website explores the cultural and societal results of the Pop Art movement and how it set the precedent for the following art movements. We will explore key influential figures and analyze their iconic works and decipher the embedded message. By learning about the influence of Pop Art we will develop a deeper understanding of Pop Art and a stronger appreciation for the role of art in society.  
+              </p>
+        >
       </div>
+    </main>
+  </div>
+  <!-- HERO SECTION END -->
         <!-- VIDEO SECTION START -->
  <div class="container py-5 text-center video" id="video">
   <div class="row py-5">
@@ -65,50 +86,33 @@
   </div>
 </div>
 <!-- VIDEO SECTION END -->
+
  <!-- THREE COLUMNS -->
  <div class="container text-center">
   <div class="row">
-      <div class="col-sm-4 px-5 my-3">
-          <img src="consumerism.webp" class="img-fluid rounded-circle mb-3 feature">
-          <h5>Reflected consumerism</h5>
-      </div>
-      <div class="col-sm-4 px-5 my-3">
-              <img src="Picasso-At-The-Tate-1960-007.avif" class="img-fluid rounded-circle mb-3 feature">
-              <h5>Made art accessible</h5>
-      </div>
+    <h1 class="text-center pb-1 fw-bold" id="about">How It Began: Criticisms</h1>
       <div class="col-sm-4 px-5 my-3">
           <img src="Box_17-107-Vietnam-War-protests-e1512355612753.jpg" class="img-fluid rounded-circle mb-3 feature">
-          <h5>A form of expression</h5>
+          <h5>Criticism of War</h5>
+          <p>Art was used as protest, propaganda, and generally a way to express emotions related to wars. Artists ironically used war propaganda materials, such as posters and advertisements, to criticize the drafting of thousands and bring to light the consequences of war.
+          </p>
       </div>
+      <div class="col-sm-4 px-5 my-3">
+              <img src="consumerism.webp" class="img-fluid rounded-circle mb-3 feature">
+              <h5>Criticism of Society</h5>
+              <p>After World War II, the post-war economic boom, the rise of TV and advertising, and the rise of factories, created a consumerist culture like never before. Capitalism defined Americans as mass production and popular culture began influencing society. However, people began to criticize this frenzy of consumerism, its artificiality, and the negative societal effects.
+              </p>
+      </div>
+      <div class="col-sm-4 px-5 my-3">
+          <img src="luncheon.jpg" class="img-fluid rounded-circle mb-3 feature">
+          <h5>Criticism of Art</h5>
+            <p>Prior to the 60s, the art world had always been known as a high class subject and was rarely accessible to the general public. As the 20th century progressed, art became more experimental and slowly moved away from its exclusive high class status. Pop Art became the criticism’s final push, with its main focus on making art accessible and relatable to the masses.
+
+            </p>
   </div>
 </div>
-     <!-- 2/3, 1/3 SECTION START -->
-     <div class="bg-aquamarine py-5" id="image">
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-sm-8">
-            <img src="warholimage.jpg" class="img-fluid" />
-          </div>
-          <div class="col-sm-4 pt-5">
-            <h2 class="fw-bold">caption</h2>
-            <p>
-              Ut ultrices eleifend orci, quis venenatis justo tempor nec.
-              Suspendisse consectetur fringilla ex, eu porta tellus mollis sed.
-              Sed a congue urna. Mauris eget lacus quam.
-            </p>
-            <p>
-              Sed augue risus, sollicitudin sollicitudin eleifend posuere,
-              congue mattis eros. Proin mollis est dolor, sed pulvinar enim
-              facilisis eget.
-            </p>
-            <button type="button" class="btn btn-lg btn-dark">
-                Button <i class="bi bi-chevron-right"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- 2/3, 1/3 SECTION END -->
+
+
 
  
 
